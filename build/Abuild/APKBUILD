@@ -4,7 +4,7 @@
 pkgname=perl-http-date
 _pkgreal=HTTP-Date
 pkgver=6.06
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Perl module date conversion routines"
 url="https://metacpan.org/pod/HTTP::Date"
 arch="noarch"
@@ -32,7 +32,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 e1555a9b5dff3b2041594f9b480f12a022eb03b0f1628f884fc88a3aed687ba7a6c7d743198c4ca7ba32df22a98fd070bd4a2bc2494703ec72e16303c9cfb3e6  HTTP-Date-6.06.tar.gz
 "
